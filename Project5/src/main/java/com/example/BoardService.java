@@ -1,4 +1,4 @@
-import com.example.BoardVO;
+package com.example;
 
 import java.util.List;
 

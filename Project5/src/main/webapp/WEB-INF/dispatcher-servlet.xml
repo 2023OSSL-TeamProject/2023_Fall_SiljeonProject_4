@@ -8,7 +8,7 @@
     <mvc:resources mapping="/img/**" location = "resources/img/"/>
     <mvc:resources mapping="/css/**" location="resources/css/"/>
 
-    <!--    <bean id="loginCheckInterceptor" class="com.example.util.LoginCheckInterceptor" />-->
+    <!--    <bean id="loginCheckInterceptor" class="com.example.com.example.util.LoginCheckInterceptor" />-->
     <!--    <mvc:interceptors>-->
     <!--        <mvc:interceptor>-->
     <!--            <mvc:mapping path="/**"/>-->

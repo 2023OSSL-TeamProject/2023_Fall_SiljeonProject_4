@@ -1,4 +1,4 @@
-//package com.example.util;
+//package com.example.com.example.util;
 //
 //import org.springframework.web.servlet.HandlerInterceptor;
 //import org.springframework.web.servlet.ModelAndView;

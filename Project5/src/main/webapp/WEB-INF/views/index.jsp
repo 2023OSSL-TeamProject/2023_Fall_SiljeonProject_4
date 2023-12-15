@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
     <style>
@@ -31,6 +32,7 @@
         }
 
     </script>
+    <link href="<c:url value="/css/font.css" />" rel="stylesheet">
 </head>
 <body>
 <h2>실전프로젝트 Project 5</h2>

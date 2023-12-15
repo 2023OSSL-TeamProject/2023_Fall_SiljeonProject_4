@@ -38,7 +38,7 @@
             <input type="text" name="bronze" value="${u.bronze}개" disabled/>
         </div>
         <div>
-            <span>CONTETN</span>
+            <span>CONTENT</span>
             <textarea cols="50" rows="5" name="content" disabled>${u.content}</textarea>
         </div>
         <div id="button">

@@ -3,7 +3,7 @@
 <mapper namespace="Board">
     <insert id="insertBoard">
 
-        insert into BOARD2 (country_name, gold, silver, bronze, content, total) values (#{country_name}, #{gold}, #{silver}, #{bronze}, #{content}, #{total})
+        insert into BOARD2 (country_name, gold, silver, bronze, content, total) values (#{country_name}, #{gold}, #{silver}, #{bronze}, #{content}, #{gold} + #{silver} + #{bronze})
 
     </insert>
     <update id="updateBoard">
@@ -28,6 +28,6 @@
     <select id="getBoardList" resultType="board">
         select *
         from BOARD2
-        order by #{seq} desc
+        order by #{gold} desc
     </select>
 </mapper>

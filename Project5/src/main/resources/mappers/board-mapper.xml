@@ -12,7 +12,8 @@
             gold=#{gold},
             silver=#{silver},
             bronze=#{bronze},
-            content=#{content}
+            content=#{content},
+            total=#{silver} + ${gold} + #{bronze}
         where seq = #{seq}
     </update>
     <delete id="deleteBoard">
